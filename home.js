@@ -1,3 +1,5 @@
+
+
 document.getElementById('facultyBtn').addEventListener('click', function () {
     window.location.href = 'faculty.html';
 });

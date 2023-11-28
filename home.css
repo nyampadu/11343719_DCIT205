@@ -77,7 +77,7 @@ nav a {
 }
 
 
-
+/*Nave bar hover*/
 nav a:hover {
     color: white;
     background-color: #34516e;
@@ -355,4 +355,82 @@ footer {
 .about-item:hover {
     transform: scale(0.98);
     transition: transform 0.2s ease-in-out;
+}
+
+
+/*Linkedin to our Experts*/
+.meet-the-experts-container .expert-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.meet-the-experts-container .expert-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(0.92);
+    transition: transform 0.2s ease-in-out;
+
+}
+
+.register-btn {
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: color 0.3s, background-color 0.3s, font-size 0.3s;
+}
+
+.register-btn:hover {
+    color: white;
+    background-color: #34516e;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.expert-item {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.expert-item:hover {
+    transform: scale(0.92);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Newsletter */
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-form input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form button {
+    padding: 8px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.about-section {
+    margin-bottom: 130px;
+}
+
+.footer-visible {
+    margin-top: 50px;
+}
+
+.footer-section p {
+    margin-top: 10px;
 }

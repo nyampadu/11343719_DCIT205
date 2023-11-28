@@ -165,3 +165,177 @@ footer {
     margin: 10px;
     text-align: left;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    width: 1000px;
+
+    height: 500px;
+
+    overflow: auto;
+    border: 1px solid #ddd;
+
+    position: relative;
+}
+
+
+.content::-webkit-scrollbar {
+    width: 12px;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: #34516e;
+    border-radius: 6px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: linear-gradient(to right, #f0f5f5, #34516e);
+    padding-bottom: 60px;
+    overflow-x: hidden;
+
+}
+
+
+body {
+    overflow-y: auto;
+}
+
+.section-content {
+    position: relative;
+}
+
+.section-content h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+.about-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item {
+    flex: 0 0 30%;
+
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.about-item h3 {
+    font-size: 1.5em;
+}
+
+.about-item p {
+    font-size: 1em;
+}
+
+
+
+.about-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;/
+}
+
+body {
+
+    padding-bottom: 60px;
+}
+
+
+.about-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item {
+    flex: 1;
+    background-color: rgb(36, 23, 68);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.slide-up {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-out;
+}
+
+
+.about-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #232f3e;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.about-item-content {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-item-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+footer {
+
+    transform: translateY(100%);
+    transition: transform 0.3s ease-out;
+}
+
+.footer-visible {
+    transform: translateY(0);
+}
+
+.about-item:hover {
+    transform: scale(0.98);
+    transition: transform 0.2s ease-in-out;
+}
